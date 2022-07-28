@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using NokiaSnakeGame;
+using NokiaSnakeGame.Core;
 
 namespace NokiaSnakeGame.InputContoller
 {
-	public class InputController : Core.MonoSingletonGeneric<InputController>, IPointerDownHandler, IPointerUpHandler
+	public class InputController : MonoSingletonGeneric<InputController>, IPointerDownHandler, IPointerUpHandler
 	{
 		[SerializeField]
 		private RectTransform joyHeadTransfrom;
