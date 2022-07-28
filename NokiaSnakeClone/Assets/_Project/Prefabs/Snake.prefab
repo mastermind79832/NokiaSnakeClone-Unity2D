@@ -1,0 +1,2188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &488411326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488411329}
+  - component: {fileID: 488411328}
+  - component: {fileID: 488411327}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488411329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488411326}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.009639375, y: 0.0346, z: 0.0201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943769}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &488411328
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488411326}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 70.2
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &488411327
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488411326}
+  m_Enabled: 1
+--- !u!1 &4813571039447520769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943713}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520769}
+  m_LocalRotation: {x: -0.00020355244, y: 0.10218642, z: -0.0077417754, w: 0.9947351}
+  m_LocalPosition: {x: -0.008111751, y: 0.000044570057, z: -2.7016116e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943719}
+  m_Father: {fileID: 4813571039447943715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.061366037, y: 11.249882, z: -0.85132307}
+--- !u!1 &4813571039447520771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943715}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520771}
+  m_LocalRotation: {x: -0.000024474128, y: 0.12620917, z: 0.0052789715, w: 0.9919896}
+  m_LocalPosition: {x: -0.0075768935, y: -0.00004456996, z: -2.5234834e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943713}
+  m_Father: {fileID: 4813571039447943803}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.08313778, y: 14.266739, z: 0.6420867}
+--- !u!1 &4813571039447520773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943717}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520773}
+  m_LocalRotation: {x: 0.00018425952, y: 0.021252863, z: 0.008606308, w: 0.9997371}
+  m_LocalPosition: {x: -0.008602151, y: -1.9984014e-17, z: -2.864896e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943723}
+  m_Father: {fileID: 4813571039447943719}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000016375111, y: 2.0303955, z: 0.9935611}
+--- !u!1 &4813571039447520775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943719}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520775}
+  m_LocalRotation: {x: -0.00024464654, y: 0.05162158, z: 0.0045840237, w: 0.9986562}
+  m_LocalPosition: {x: -0.009404002, y: -0.00008913746, z: -3.1320882e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943717}
+  m_Father: {fileID: 4813571039447943713}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.052349173, y: 5.5301414, z: 0.54079515}
+--- !u!1 &4813571039447520777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943721}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520777}
+  m_LocalRotation: {x: -0.00031396435, y: -0.051806863, z: 0.011718561, w: 0.9985883}
+  m_LocalPosition: {x: -0.0080671795, y: -0.000044570053, z: -2.6867676e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943727}
+  m_Father: {fileID: 4813571039447943723}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.036192056, y: -6.568236, z: 1.3251691}
+--- !u!1 &4813571039447520779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943723}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520779}
+  m_LocalRotation: {x: -0.00011353118, y: -0.019218737, z: -0.0113742845, w: 0.9997506}
+  m_LocalPosition: {x: -0.0077095777, y: 0.0001336921, z: -2.5680153e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943721}
+  m_Father: {fileID: 4813571039447943717}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.046446834, y: -2.6792467, z: -1.3090526}
+--- !u!1 &4813571039447520781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943725}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520781}
+  m_LocalRotation: {x: 0.0013512373, y: -0.11365849, z: 0.0063624387, w: 0.9934986}
+  m_LocalPosition: {x: -0.007442111, y: -0.00013369063, z: -2.4789511e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943699}
+  m_Father: {fileID: 4813571039447943727}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.23951069, y: -13.460297, z: 0.66716444}
+--- !u!1 &4813571039447520783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943727}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520783}
+  m_LocalRotation: {x: 0.000012477947, y: -0.07874737, z: -0.01752045, w: 0.99674064}
+  m_LocalPosition: {x: -0.007575845, y: 0.00013369138, z: -2.5234834e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943725}
+  m_Father: {fileID: 4813571039447943721}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.17091656, y: -9.72987, z: -2.0260484}
+--- !u!1 &4813571039447520785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943729}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Eye_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520785}
+  m_LocalRotation: {x: -0.0007943158, y: -5.5729333e-18, z: 2.8763529e-18, w: 0.9999997}
+  m_LocalPosition: {x: -0.0026932657, y: -0.0015995323, z: -0.00036802175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943779}
+  m_Father: {fileID: 4813571039447943787}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4813571039447520787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943731}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520787}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00051404355, y: 0, z: 0.010305466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943777}
+  m_Father: {fileID: 4813571039447943737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4813571039447520789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943733}
+  - component: {fileID: 4813571039446649363}
+  - component: {fileID: 4813571039445518547}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Fangs_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520789}
+  m_LocalRotation: {x: -2.5484856e-32, y: 1.6307122e-16, z: 1.5628052e-16, w: 1}
+  m_LocalPosition: {x: -0.00067539915, y: -0.0002784773, z: -0.00018432447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -5.8406985e-30, y: 1.8686584e-14, z: 1.7908426e-14}
+--- !u!33 &4813571039446649363
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520789}
+  m_Mesh: {fileID: 4300008, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+--- !u!23 &4813571039445518547
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520789}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bba6317cea0d345e59a74c64e7c2195b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4813571039447520791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943735}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Eye_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520791}
+  m_LocalRotation: {x: -0.0007943145, y: -1.8549832e-12, z: 0.0000000023356335, w: 0.9999997}
+  m_LocalPosition: {x: 0.0026293497, y: -0.0015995353, z: -0.00036800746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943783}
+  m_Father: {fileID: 4813571039447943787}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 4.210025e-14, z: 0}
+--- !u!1 &4813571039447520793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943737}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Inland_Taipan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520793}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -0.010305466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943731}
+  m_Father: {fileID: 4813571039447943769}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4813571039447520795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943739}
+  - component: {fileID: 4813571039446649361}
+  - component: {fileID: 4813571039445518545}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Fangs_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520795}
+  m_LocalRotation: {x: -2.5484856e-32, y: 1.6307122e-16, z: 1.5628052e-16, w: 1}
+  m_LocalPosition: {x: 0.000745508, y: -0.0002784773, z: -0.00018432447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943765}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -5.8406985e-30, y: 1.8686584e-14, z: 1.7908426e-14}
+--- !u!33 &4813571039446649361
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520795}
+  m_Mesh: {fileID: 4300006, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+--- !u!23 &4813571039445518545
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520795}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bba6317cea0d345e59a74c64e7c2195b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4813571039447520797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943741}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520797}
+  m_LocalRotation: {x: -0.0006117394, y: -0.07680615, z: 0.021340495, w: 0.99681747}
+  m_LocalPosition: {x: -0.0043480126, y: 0.00017436345, z: -1.4361576e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943703}
+  m_Father: {fileID: 4813571039447943781}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.16859025, y: -16.859468, z: 2.0502393}
+--- !u!1 &4813571039447520799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943743}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520799}
+  m_LocalRotation: {x: -0.5798052, y: 0.81475514, z: -8.539219e-17, w: -1.4386532e-17}
+  m_LocalPosition: {x: 0.0040424587, y: -0.00026066226, z: 8.97154e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943801}
+  - {fileID: 4813571039447943787}
+  - {fileID: 4813571039447943765}
+  m_Father: {fileID: 4813571039447943781}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.928414e-15, y: 180, z: -70.87368}
+--- !u!1 &4813571039447520833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943777}
+  - component: {fileID: 4813571039452732179}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:polySurface15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520833}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00051404355, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4813571039452732179
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520833}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dd2c7a9e1892349ebafa92f808b383bf, type: 2}
+  - {fileID: 2100000, guid: 274f8e334bdbc4cefa5b7e10913aa4c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+  m_Bones:
+  - {fileID: 4813571039447943781}
+  - {fileID: 4813571039447943743}
+  - {fileID: 4813571039447943787}
+  - {fileID: 4813571039447943735}
+  - {fileID: 4813571039447943729}
+  - {fileID: 4813571039447943801}
+  - {fileID: 4813571039447943807}
+  - {fileID: 4813571039447943805}
+  - {fileID: 4813571039447943785}
+  - {fileID: 4813571039447943791}
+  - {fileID: 4813571039447943789}
+  - {fileID: 4813571039447943763}
+  - {fileID: 4813571039447943761}
+  - {fileID: 4813571039447943767}
+  - {fileID: 4813571039447943765}
+  - {fileID: 4813571039447943741}
+  - {fileID: 4813571039447943703}
+  - {fileID: 4813571039447943689}
+  - {fileID: 4813571039447943693}
+  - {fileID: 4813571039447943795}
+  - {fileID: 4813571039447943793}
+  - {fileID: 4813571039447943799}
+  - {fileID: 4813571039447943797}
+  - {fileID: 4813571039447943803}
+  - {fileID: 4813571039447943715}
+  - {fileID: 4813571039447943713}
+  - {fileID: 4813571039447943719}
+  - {fileID: 4813571039447943717}
+  - {fileID: 4813571039447943723}
+  - {fileID: 4813571039447943721}
+  - {fileID: 4813571039447943727}
+  - {fileID: 4813571039447943725}
+  - {fileID: 4813571039447943699}
+  - {fileID: 4813571039447943697}
+  - {fileID: 4813571039447943701}
+  - {fileID: 4813571039447943707}
+  - {fileID: 4813571039447943705}
+  - {fileID: 4813571039447943711}
+  - {fileID: 4813571039447943709}
+  - {fileID: 4813571039447943683}
+  - {fileID: 4813571039447943681}
+  - {fileID: 4813571039447943687}
+  - {fileID: 4813571039447943685}
+  - {fileID: 4813571039447943691}
+  - {fileID: 4813571039447943695}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4813571039447943781}
+  m_AABB:
+    m_Center: {x: -0.10302242, y: -0.0010923911, z: 0.01755248}
+    m_Extent: {x: 0.115484215, y: 0.008049452, z: 0.18076086}
+  m_DirtyAABB: 0
+--- !u!1 &4813571039447520835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943779}
+  - component: {fileID: 4813571039446649367}
+  - component: {fileID: 4813571039445518551}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:polySurface13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520835}
+  m_LocalRotation: {x: 1.9428903e-16, y: 1.8179104e-16, z: 1.04021e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943729}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.2263882e-14, y: 2.0831718e-14, z: 1.1919928e-14}
+--- !u!33 &4813571039446649367
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520835}
+  m_Mesh: {fileID: 4300004, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+--- !u!23 &4813571039445518551
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520835}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 752219549f37b4c3dbf3eb94bdc045cb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4813571039447520837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943781}
+  - component: {fileID: 1245735829}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520837}
+  m_LocalRotation: {x: 0.004447134, y: -0.7005724, z: -0.0038603826, w: 0.7135571}
+  m_LocalPosition: {x: -0.011587778, y: 0.0056179813, z: 0.10060707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943743}
+  - {fileID: 4813571039447943741}
+  m_Father: {fileID: 4813571039447943771}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0026053702, y: -90.051834, z: -0.58166134}
+--- !u!65 &1245735829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.01}
+  m_Center: {x: 0.008, y: -0.002, z: 0}
+--- !u!1 &4813571039447520839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943783}
+  - component: {fileID: 4813571039446649365}
+  - component: {fileID: 4813571039445518549}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:polySurface16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520839}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943735}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4813571039446649365
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520839}
+  m_Mesh: {fileID: 4300002, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+--- !u!23 &4813571039445518549
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520839}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 752219549f37b4c3dbf3eb94bdc045cb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4813571039447520841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943785}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Tongue1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520841}
+  m_LocalRotation: {x: 1.1563973e-16, y: 1.1202936e-15, z: -0.14558257, w: 0.98934615}
+  m_LocalPosition: {x: 0.00039552498, y: -0.00096244155, z: 2.220446e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943791}
+  m_Father: {fileID: 4813571039447943801}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 2.7034674e-14, y: 5.296403e-13, z: -16.742031}
+--- !u!1 &4813571039447520843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943787}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Scalp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520843}
+  m_LocalRotation: {x: 0.40705457, y: -0.57819253, z: 0.40705457, w: 0.57819253}
+  m_LocalPosition: {x: -0.00404593, y: 5.551115e-19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943729}
+  - {fileID: 4813571039447943735}
+  m_Father: {fileID: 4813571039447943743}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 70.29203, y: -90, z: 0}
+--- !u!1 &4813571039447520845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943789}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Tongue3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520845}
+  m_LocalRotation: {x: -1.38777845e-17, y: 1.2824698e-15, z: -0.016000366, w: 0.999872}
+  m_LocalPosition: {x: -0.0012550696, y: -0.000007537969, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943763}
+  m_Father: {fileID: 4813571039447943791}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 9.960783e-16, y: 5.591959e-13, z: -1.8335851}
+--- !u!1 &4813571039447520847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943791}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Tongue2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520847}
+  m_LocalRotation: {x: 2.359224e-16, y: 1.196399e-15, z: -0.029725758, w: 0.9995581}
+  m_LocalPosition: {x: -0.0011675669, y: 0.000088922294, z: 2.220446e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943789}
+  m_Father: {fileID: 4813571039447943785}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.210229e-14, y: 5.4448845e-13, z: -3.406823}
+--- !u!1 &4813571039447520849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943793}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520849}
+  m_LocalRotation: {x: -0.00027910873, y: 0.013516097, z: 0.009244058, w: 0.9998659}
+  m_LocalPosition: {x: -0.0074399784, y: -0.00022275384, z: -2.4789511e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943799}
+  m_Father: {fileID: 4813571039447943795}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.057615183, y: 1.9246608, z: 1.0629896}
+--- !u!1 &4813571039447520851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943795}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520851}
+  m_LocalRotation: {x: 0.00025916996, y: -0.010796337, z: -0.005975201, w: 0.9999238}
+  m_LocalPosition: {x: -0.0073975334, y: -0.00013369037, z: -2.4641071e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943793}
+  m_Father: {fileID: 4813571039447943693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.016369266, y: -0.90582186, z: -0.6797475}
+--- !u!1 &4813571039447520853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943797}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520853}
+  m_LocalRotation: {x: -0.00071421755, y: 0.08282771, z: 0.0024921948, w: 0.9965605}
+  m_LocalPosition: {x: -0.007843942, y: -0.000089135705, z: -2.6125474e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943803}
+  m_Father: {fileID: 4813571039447943799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.10777475, y: 9.524837, z: 0.30548558}
+--- !u!1 &4813571039447520855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943799}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520855}
+  m_LocalRotation: {x: -0.0005129367, y: 0.045138426, z: -0.00013015106, w: 0.99898064}
+  m_LocalPosition: {x: -0.007843942, y: -0.000089135705, z: -2.6125474e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943797}
+  m_Father: {fileID: 4813571039447943793}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.061111674, y: 5.3847404, z: -0.0026286673}
+--- !u!1 &4813571039447520857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943801}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Lowerjoint21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520857}
+  m_LocalRotation: {x: -6.376986e-16, y: -8.520927e-18, z: 0.5483252, w: 0.8362652}
+  m_LocalPosition: {x: 0.0010979528, y: -0.0015708434, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943807}
+  - {fileID: 4813571039447943785}
+  m_Father: {fileID: 4813571039447943743}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.907379e-13, y: -1.5325179e-13, z: 66.48769}
+--- !u!1 &4813571039447520859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943803}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520859}
+  m_LocalRotation: {x: -0.00068194664, y: 0.11593093, z: -0.0003342567, w: 0.993257}
+  m_LocalPosition: {x: -0.0075768935, y: -0.00004456996, z: -2.5234834e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943715}
+  m_Father: {fileID: 4813571039447943797}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.078569286, y: 13.468294, z: -0.00866177}
+--- !u!1 &4813571039447520861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943805}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Lowerjoint23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520861}
+  m_LocalRotation: {x: -0.11624765, y: -0.69748586, z: -0.11624765, w: 0.69748586}
+  m_LocalPosition: {x: -0.0031551619, y: 1.0685896e-17, z: 1.1516892e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943807}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -18.924646, y: -90, z: 0}
+--- !u!1 &4813571039447520863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943807}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Lowerjoint22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520863}
+  m_LocalRotation: {x: -3.104153e-25, y: 1.84116e-16, z: -0.13184594, w: 0.99127024}
+  m_LocalPosition: {x: -0.003500418, y: -1.3877787e-18, z: 1.1658733e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943805}
+  m_Father: {fileID: 4813571039447943801}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.7817038e-15, y: 2.0913955e-14, z: -15.152549}
+--- !u!1 &4813571039447520865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943681}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520865}
+  m_LocalRotation: {x: 0.0011258982, y: 0.12733282, z: -0.004958347, w: 0.99184704}
+  m_LocalPosition: {x: -0.00926368, y: 0.00012406716, z: -3.0854908e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943687}
+  m_Father: {fileID: 4813571039447943683}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.19222844, y: 14.5140505, z: -0.49626285}
+--- !u!1 &4813571039447520867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943683}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520867}
+  m_LocalRotation: {x: 0.00032883964, y: 0.14604028, z: 0.0105996495, w: 0.9892218}
+  m_LocalPosition: {x: -0.009305502, y: -0.00008271558, z: -3.0992654e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943681}
+  m_Father: {fileID: 4813571039447943709}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.14683516, y: 16.743872, z: 1.2557485}
+--- !u!1 &4813571039447520869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943685}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520869}
+  m_LocalRotation: {x: 0.00018443847, y: 0.03209335, z: 0.0052517494, w: 0.99947107}
+  m_LocalPosition: {x: -0.009719465, y: 5.995204e-17, z: -3.2370104e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943691}
+  m_Father: {fileID: 4813571039447943687}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000046023733, y: 3.4056778, z: 0.65869784}
+--- !u!1 &4813571039447520871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943687}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520871}
+  m_LocalRotation: {x: 0.0001692992, y: 0.07889379, z: -0.0026605038, w: 0.9968795}
+  m_LocalPosition: {x: -0.009636657, y: 0.000041359042, z: -3.2094614e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943685}
+  m_Father: {fileID: 4813571039447943681}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.037710775, y: 8.828703, z: -0.24258952}
+--- !u!1 &4813571039447520873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943689}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520873}
+  m_LocalRotation: {x: 0.00068837847, y: -0.06670585, z: -0.0070513957, w: 0.99774754}
+  m_LocalPosition: {x: -0.00779975, y: -0.000044570006, z: -5.2095756e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943693}
+  m_Father: {fileID: 4813571039447943703}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.06668752, y: -11.762342, z: -0.5351028}
+--- !u!1 &4813571039447520875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943691}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520875}
+  m_LocalRotation: {x: -0.00019181066, y: -0.010239098, z: 0.0064535392, w: 0.99992675}
+  m_LocalPosition: {x: -0.0071960646, y: 0.000082713384, z: -2.3967651e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943695}
+  m_Father: {fileID: 4813571039447943685}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.01932778, y: -1.6816607, z: 0.8295315}
+--- !u!1 &4813571039447520877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943693}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520877}
+  m_LocalRotation: {x: 0.00059990253, y: -0.036360394, z: -0.0020954697, w: 0.9993364}
+  m_LocalPosition: {x: -0.005971813, y: -0.000089131536, z: -1.9890987e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943795}
+  m_Father: {fileID: 4813571039447943689}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.06378169, y: -4.277836, z: -0.18283264}
+--- !u!1 &4813571039447520879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943695}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520879}
+  m_LocalRotation: {x: 0.009180883, y: 0.7070472, z: -0.009180883, w: 0.7070472}
+  m_LocalPosition: {x: -0.0063672042, y: 0.0001653819, z: -2.121275e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943691}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.4878674, y: 90, z: 0}
+--- !u!1 &4813571039447520881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943697}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520881}
+  m_LocalRotation: {x: -0.0010696467, y: -0.08744928, z: -0.0062396275, w: 0.9961489}
+  m_LocalPosition: {x: -0.0071300636, y: 0.00013368869, z: -2.375043e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943701}
+  m_Father: {fileID: 4813571039447943699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.17524104, y: -9.386282, z: -0.73281074}
+--- !u!1 &4813571039447520883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943699}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520883}
+  m_LocalRotation: {x: -0.00076326996, y: -0.118024476, z: 0.0125349695, w: 0.9929313}
+  m_LocalPosition: {x: -0.0076660365, y: -0.000044569977, z: -2.5531713e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943697}
+  m_Father: {fileID: 4813571039447943725}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.07701978, y: -13.380884, z: 1.397635}
+--- !u!1 &4813571039447520885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943701}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520885}
+  m_LocalRotation: {x: 0.000803326, y: -0.057724193, z: -0.019429538, w: 0.9981432}
+  m_LocalPosition: {x: -0.00779975, y: 0.000044570006, z: -2.5977034e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943707}
+  m_Father: {fileID: 4813571039447943697}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.034483284, y: -6.0432415, z: -2.2478812}
+--- !u!1 &4813571039447520887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943703}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520887}
+  m_LocalRotation: {x: -0.0009674783, y: -0.09500206, z: -0.014740274, w: 0.99536747}
+  m_LocalPosition: {x: -0.005123891, y: 0.00013366672, z: -2.2668496e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943689}
+  m_Father: {fileID: 4813571039447943741}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.061397888, y: 2.354333, z: -1.8203659}
+--- !u!1 &4813571039447520889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943705}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520889}
+  m_LocalRotation: {x: 0.000050578183, y: 0.010186422, z: -0.00014024788, w: 0.99994814}
+  m_LocalPosition: {x: -0.008147702, y: 0.00004135889, z: -2.713579e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943711}
+  m_Father: {fileID: 4813571039447943707}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.007277798, y: 1.4340366, z: -0.01255004}
+--- !u!1 &4813571039447520891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943707}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520891}
+  m_LocalRotation: {x: 0.00029995965, y: -0.021070872, z: 0.019366145, w: 0.99959034}
+  m_LocalPosition: {x: -0.0076429276, y: -0.00025648336, z: -2.546865e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943705}
+  m_Father: {fileID: 4813571039447943701}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.06832314, y: -2.036435, z: 2.2115574}
+--- !u!1 &4813571039447520893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943709}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520893}
+  m_LocalRotation: {x: -0.00022141897, y: 0.10615249, z: -0.007070363, w: 0.99432474}
+  m_LocalPosition: {x: -0.0087681, y: 0.000041358962, z: -2.9201965e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943683}
+  m_Father: {fileID: 4813571039447943711}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.05735786, y: 12.265962, z: -0.7728201}
+--- !u!1 &4813571039447520895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943711}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:joint23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447520895}
+  m_LocalRotation: {x: 0.00024223501, y: 0.05061669, z: -0.00021454347, w: 0.9987181}
+  m_LocalPosition: {x: -0.008519941, y: 0.000041358937, z: -2.8375496e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943709}
+  m_Father: {fileID: 4813571039447943705}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.028854389, y: 5.9576354, z: -0.0060988213}
+--- !u!1 &4813571039447521201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943761}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Tongue5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521201}
+  m_LocalRotation: {x: 1.5959457e-16, y: 1.1983443e-15, z: -0.028832104, w: 0.99958426}
+  m_LocalPosition: {x: -0.0012167523, y: 0.00002834965, z: 6.661338e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943767}
+  m_Father: {fileID: 4813571039447943763}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.1826306e-14, y: 5.360733e-13, z: -3.3043737}
+--- !u!1 &4813571039447521203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943763}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Tongue4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521203}
+  m_LocalRotation: {x: 2.7755573e-16, y: 1.201441e-15, z: 0.01880722, w: 0.99982315}
+  m_LocalPosition: {x: -0.0013490191, y: -0.000058314585, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943761}
+  m_Father: {fileID: 4813571039447943789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.8847316e-14, y: 5.380686e-13, z: 2.1552753}
+--- !u!1 &4813571039447521205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943765}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Upperjaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521205}
+  m_LocalRotation: {x: 0.40705457, y: -0.57819253, z: 0.40705457, w: 0.57819253}
+  m_LocalPosition: {x: -0.0034592105, y: -0.0063696443, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943733}
+  - {fileID: 4813571039447943739}
+  m_Father: {fileID: 4813571039447943743}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 70.29203, y: -90, z: 0}
+--- !u!1 &4813571039447521207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943767}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:Tongue6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521207}
+  m_LocalRotation: {x: -0.06743939, y: -0.70388347, z: -0.06743939, w: 0.70388347}
+  m_LocalPosition: {x: -0.0016190987, y: -0.00011643212, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813571039447943761}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -10.945658, y: -90, z: 0}
+--- !u!1 &4813571039447521209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943769}
+  - component: {fileID: 4813571039454318547}
+  - component: {fileID: 8310079294460026454}
+  - component: {fileID: 8310079294460026451}
+  m_Layer: 0
+  m_Name: Snake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943737}
+  - {fileID: 4813571039447943771}
+  - {fileID: 488411329}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &4813571039454318547
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521209}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+  - {fileID: 2242093226116659609, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+  - {fileID: -3332656750375472118, guid: 9a70f4d7ee800421ab3cc8d04c613a02, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!54 &8310079294460026454
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521209}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
+--- !u!114 &8310079294460026451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe2311d8209f0a4e97a31fbc19c23b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 8310079294460026454}
+  snakeSpeed: 0.01
+  rotationSpeed: 2
+--- !u!1 &4813571039447521211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813571039447943771}
+  m_Layer: 0
+  m_Name: Inland_Taipan_new_0003:World_Ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813571039447943771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813571039447521211}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0.0010511401}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4813571039447943781}
+  m_Father: {fileID: 4813571039447943769}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 1041744797426160423}
   - component: {fileID: 1041744797426160417}
   - component: {fileID: 1041744797426160422}
+  - component: {fileID: 1306391301}
   m_Layer: 5
   m_Name: JoyBase
   m_TagString: Untagged
@@ -153,3 +154,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1306391301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041744797426160420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31eb6ddfa40d49f4aab20f539ff344ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rectTransform: {fileID: 1041744796960699371}

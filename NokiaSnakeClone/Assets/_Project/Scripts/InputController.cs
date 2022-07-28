@@ -3,45 +3,61 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using NokiaSnakeGame;
 
-public class InputController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+namespace NokiaSnakeGame.InputContoller
 {
-	[SerializeField]
-	private RectTransform rectTransform;
-	private float rotation;
-	private bool isClicked;
-
-	public Action<float> OnDrag;
-
-	public void OnPointerDown(PointerEventData eventData)
+	public class InputController : Core.MonoSingletonGeneric<InputController>, IPointerDownHandler, IPointerUpHandler
 	{
-		isClicked = true;
-	}
+		[SerializeField]
+		private RectTransform joyHeadTransfrom;
+	
+		// is Mouse clicked
+		private bool isClicked;
 
-	private void Update()
-	{
-		if (isClicked)
+		public Action<Vector3> OnJoyDrag;
+
+		private void OnEnable()
 		{
-			OnPointerMove();
+			OnJoyDrag += SetRotationToJoy;
 		}
-	}
+		private void OnDisable()
+		{
+			OnJoyDrag -= SetRotationToJoy;
+		}
 
-	public void OnPointerMove()
-	{
-		Vector3 direction = (Input.mousePosition - rectTransform.position).normalized;
-		rotation = Mathf.Atan2(direction.y,direction.x) * Mathf.Rad2Deg - 90;
-		SetRotationToJoy(rotation);
-		OnDrag(rotation);
-	}
+		public void OnPointerDown(PointerEventData eventData)
+		{
+			isClicked = true;
+		}
 
-	void IPointerUpHandler.OnPointerUp(PointerEventData eventData)
-	{
-		isClicked = false;
-		SetRotationToJoy(0);
-	}
+		private void Update()
+		{
+			if (isClicked)
+				OnPointerMove();
+		}
 
-	private void SetRotationToJoy(float rotate)
-	{
-		rectTransform.rotation = Quaternion.Euler(0,0,rotate);
+		public void OnPointerMove()
+		{
+			OnJoyDrag(CaculateDirection());
+		}
+
+		private Vector3 CaculateDirection()
+		{
+			return (Input.mousePosition - joyHeadTransfrom.position).normalized;
+		}
+
+		void IPointerUpHandler.OnPointerUp(PointerEventData eventData)
+		{
+			isClicked = false;
+			OnJoyDrag(Vector3.zero);
+		}
+
+		private void SetRotationToJoy(Vector3 direction)
+		{
+			float rotation = (direction != Vector3.zero)? Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90 : 0;
+			//Debug.Log(rotation);
+			joyHeadTransfrom.rotation = Quaternion.Euler(0, 0, rotation);
+		}
 	}
 }
