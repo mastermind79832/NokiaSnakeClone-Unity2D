@@ -6,7 +6,7 @@ using NokiaSnakeGame.Core;
 
 namespace NokiaSnakeGame.Grid
 {
-    public enum TileType
+    public enum TileState
 	{
         Deactive = 0,
         Active = 1
@@ -14,9 +14,9 @@ namespace NokiaSnakeGame.Grid
 
     public class TileController : MonoBehaviour, IFloor
     {
-        private Vector2Int tileLocation;
+        public Vector2Int tileLocation;
 
-        private TileType tileType;
+        private TileState tileType;
 		[SerializeField, Tooltip("Material is assigned using TileType enum value. Add Accordingly.")]
         private Material[] tileMats;
 		
@@ -25,9 +25,9 @@ namespace NokiaSnakeGame.Grid
 
 		public void ActivateFloor()
 		{
-            if(tileType == TileType.Deactive)
+            if(tileType == TileState.Deactive)
 			{
-                tileType = TileType.Active;
+                tileType = TileState.Active;
                 SetTileMaterial();
 			}
         }

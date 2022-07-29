@@ -10,24 +10,26 @@ namespace NokiaSnakeGame.Snake
 	public class SnakeController : MonoBehaviour
 	{
 		[SerializeField]
-		private Rigidbody rb;
+		private Rigidbody m_RigidBody;
 
 		[Header("Snake Movement")]
 		[SerializeField, Tooltip("The speed at which the snake moves forward")]
-		private float snakeSpeed;
+		private float m_SnakeSpeed;
 		[SerializeField, Tooltip("The speed at which the snake rotates")]
-		private float rotationSpeed;
+		private float m_RotationSpeed;
 
-		private Vector3 direction;
-		private float rotation;
+		private Vector3 m_Direction;
+		private float m_Rotation;
 
 		public float hitTimeSec;
-		private WaitForSeconds hitTime;
-		private bool isHit;
+		private WaitForSeconds m_HitTime;
+		private bool b_IsHit;
+		private Vector3 m_Initalpos;
 
 		private void Start()
 		{
-			hitTime = new WaitForSeconds(hitTimeSec);
+			m_HitTime = new WaitForSeconds(hitTimeSec);
+			m_Initalpos = transform.position;
 		}
 
 		private void OnEnable()
@@ -41,52 +43,60 @@ namespace NokiaSnakeGame.Snake
 
 		private void SetDirection(Vector3 dir) 
 		{
-			direction = dir;
-			rotation = Mathf.Abs(Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) - 90;
+			m_Direction = dir;
+			m_Rotation = Mathf.Abs(Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) - 90;
 		}
 
 		private void FixedUpdate()
 		{
-			if (isHit)
+			if (b_IsHit)
 				return;
 
 			MoveSnake();
-			if (direction != Vector3.zero)
+			if (m_Direction != Vector3.zero)
 				RotateSnake();
+			FixSnakeToGround();
+		}
+
+		private void FixSnakeToGround()
+		{
+			m_Initalpos.x = transform.position.x;
+			m_Initalpos.z = transform.position.z;
+			// Make sure the Y axis stays same
+			transform.position = m_Initalpos;
 		}
 
 		private void RotateSnake()
 		{
-			rb.MoveRotation(Quaternion.Euler(0, GetEffectiveRotation(), 0));
+			m_RigidBody.MoveRotation(Quaternion.Euler(0, GetEffectiveRotation(), 0));
 		}
 
-		private float GetEffectiveRotation() => transform.eulerAngles.y - (rotationSpeed * Time.fixedDeltaTime * rotation) ;
+		private float GetEffectiveRotation() => transform.eulerAngles.y - (m_RotationSpeed * Time.fixedDeltaTime * m_Rotation) ;
 
 		public void MoveSnake()
 		{
-			rb.velocity = GetEffectiveSpeed();
+			m_RigidBody.velocity = GetEffectiveSpeed();		
 		}
 
-		private Vector3 GetEffectiveSpeed() => snakeSpeed * Time.fixedDeltaTime * transform.forward;
+		private Vector3 GetEffectiveSpeed() => m_SnakeSpeed * Time.fixedDeltaTime * transform.forward;
 
 		private void OnTriggerEnter(Collider other)
 		{
 			if (other.TryGetComponent(out IFloor floor))
 				floor.ActivateFloor();
-	
 
 			if(other.TryGetComponent(out IWall wall))
 			{
 				StartCoroutine(WallHit());
-				wall.HitWall(rb);	
+				wall.HitWall(m_RigidBody);	
 			}
 		}
-
+		// For recovery time
 		private IEnumerator WallHit()
 		{
-			isHit = true;
-			yield return hitTime;
-			isHit = false;
+			b_IsHit = true;
+			yield return m_HitTime;
+			b_IsHit = false;
 		}
 	}
 }
