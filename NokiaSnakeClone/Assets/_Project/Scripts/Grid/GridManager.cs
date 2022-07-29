@@ -8,28 +8,30 @@ namespace NokiaSnakeGame.Grid
     public class GridManager : MonoBehaviour
     {
 		[Header("Grid Properties")]
-        public Vector2Int maxGridSize;
+		[SerializeField]
+        private Vector2Int m_MaxGridSize;
+		public Vector2Int GridSize { get { return m_MaxGridSize; }	}
 
 		[Header("Tile Properties")]
 		public TileTypeSO tileType;
-		private TileController[,] tiles;
+		private TileController[,] m_Tiles;
 
 		[Header("Wall Properties")]
 		public WallTypeSO wallType;
 
 		private void Start()
 		{
-			tiles = new TileController[maxGridSize.x, maxGridSize.y];
+			m_Tiles = new TileController[m_MaxGridSize.x, m_MaxGridSize.y];
 			CreateGrid();
 		}
 
 		private void CreateGrid()
 		{
 			Vector2Int CurrentIndex = Vector2Int.zero;
-			for (int x = 0; x < maxGridSize.x; x++)
+			for (int x = 0; x < m_MaxGridSize.x; x++)
 			{
 				CurrentIndex.x = x;
-				for (int y = 0; y < maxGridSize.y; y++)
+				for (int y = 0; y < m_MaxGridSize.y; y++)
 				{
 					CurrentIndex.y = y;
 					CreateSingleTile(CurrentIndex);
@@ -43,7 +45,7 @@ namespace NokiaSnakeGame.Grid
 			Vector3 newPosition = Vector3.zero;
 			newPosition.y = wallType.wallYOffset;
 			Quaternion rotation;
-			if (index.x == 0 || index.x == maxGridSize.x - 1)
+			if (index.x == 0 || index.x == m_MaxGridSize.x - 1)
 			{
 				// To place wall to the edge of X axis
 				newPosition.x = (index.x * tileType.tileSize) + tileType.tileSize / 2 * (index.x == 0 ? -1 : 1);
@@ -53,7 +55,7 @@ namespace NokiaSnakeGame.Grid
 				CreateSingleWall(newPosition, rotation);
 			}
 
-			if (index.y == 0 || index.y == maxGridSize.y - 1)
+			if (index.y == 0 || index.y == m_MaxGridSize.y - 1)
 			{
 				newPosition.x = index.x * tileType.tileSize;
 				// To place wall to the edge of Z axis
@@ -75,8 +77,9 @@ namespace NokiaSnakeGame.Grid
 			newposition.x = newIndex.x * tileType.tileSize;
 			newposition.z = newIndex.y * tileType.tileSize;
 
-			tiles[newIndex.x, newIndex.y] = Instantiate(tileType.tilePrefab, newposition, Quaternion.identity, transform);
-			tiles[newIndex.x, newIndex.y].tileLocation = newIndex;
+			m_Tiles[newIndex.x, newIndex.y] = Instantiate(tileType.tilePrefab, newposition, Quaternion.identity, transform);
 		}
+		public bool CheckTileState(TileState state, Vector2Int index) => m_Tiles[index.x, index.y].State == state;
+		public Vector3 GetTilePosition(Vector2Int index) => m_Tiles[index.x, index.y].transform.position;
 	}
 }

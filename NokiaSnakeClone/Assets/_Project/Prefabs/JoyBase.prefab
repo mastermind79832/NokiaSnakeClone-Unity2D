@@ -166,4 +166,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31eb6ddfa40d49f4aab20f539ff344ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rectTransform: {fileID: 1041744796960699371}
+  m_JoyHeadTransfrom: {fileID: 1041744796960699371}

@@ -90,6 +90,9 @@ namespace NokiaSnakeGame.Snake
 				StartCoroutine(WallHit());
 				wall.HitWall(m_RigidBody);	
 			}
+
+			if (other.TryGetComponent(out IConsumable consumable))
+				consumable.Consume();
 		}
 		// For recovery time
 		private IEnumerator WallHit()

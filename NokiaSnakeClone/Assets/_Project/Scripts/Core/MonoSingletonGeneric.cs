@@ -6,15 +6,15 @@ namespace NokiaSnakeGame.Core
 {
     public class MonoSingletonGeneric<T> : MonoBehaviour where T: MonoSingletonGeneric<T> 
     {
-        private static T instance;
-        public static T Instance { get { return instance; } }
+        private static T m_Instance;
+        public static T Instance { get { return m_Instance; } }
 
         protected virtual void Awake()
 		{
-            if (instance != null)
+            if (m_Instance != null)
                 Destroy(gameObject);
 
-            instance = (T)this;        
+            m_Instance = (T)this;        
 		}
     }
 }

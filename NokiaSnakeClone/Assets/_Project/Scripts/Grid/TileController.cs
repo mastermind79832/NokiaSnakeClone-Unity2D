@@ -14,27 +14,28 @@ namespace NokiaSnakeGame.Grid
 
     public class TileController : MonoBehaviour, IFloor
     {
-        public Vector2Int tileLocation;
+        private TileState m_State;
+		public TileState State {  get { return m_State; } }
 
-        private TileState tileType;
 		[SerializeField, Tooltip("Material is assigned using TileType enum value. Add Accordingly.")]
-        private Material[] tileMats;
+        private Material[] m_TileMats;
 		
         [SerializeField]
-        private MeshRenderer meshRenderer;
+        private MeshRenderer m_MeshRenderer;
 
 		public void ActivateFloor()
 		{
-            if(tileType == TileState.Deactive)
+            if(m_State == TileState.Deactive)
 			{
-                tileType = TileState.Active;
+                m_State = TileState.Active;
                 SetTileMaterial();
 			}
         }
 
+
 		private void SetTileMaterial()
 		{
-			meshRenderer.sharedMaterial = tileMats[(int)tileType];
+			m_MeshRenderer.sharedMaterial = m_TileMats[(int)m_State];
 		}
 	}
 }

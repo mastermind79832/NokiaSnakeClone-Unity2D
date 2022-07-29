@@ -110,8 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570627d06ae9d404596b1cc45eb7c1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileLocation: {x: 0, y: 0}
-  tileMats:
+  m_TileMats:
   - {fileID: 2100000, guid: 42795bc80d9521a459c8a8f296d76106, type: 2}
   - {fileID: 2100000, guid: 48f3a63cf277f544fa87485319032a17, type: 2}
-  meshRenderer: {fileID: 9083260127042827}
+  m_MeshRenderer: {fileID: 9083260127042827}

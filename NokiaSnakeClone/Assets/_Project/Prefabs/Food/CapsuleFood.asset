@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b683560a3cd2bcd4db5d0eb8bb81edcb, type: 3}
+  m_Name: CapsuleFood
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 5702636799304521244, guid: 6b12d4ce50447e643bc54305284f61e0, type: 3}
+  yOffset: 0.2
