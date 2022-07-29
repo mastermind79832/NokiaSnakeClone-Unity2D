@@ -18,6 +18,16 @@ namespace NokiaSnakeGame.Snake
 		[SerializeField, Tooltip("The speed at which the snake rotates")]
 		private float m_RotationSpeed;
 
+		[Header("Snake Animation")]
+		[SerializeField]
+		private Animation m_Anim;
+		[SerializeField]
+		private AnimationClip m_Slither;
+		[SerializeField]
+		private AnimationClip m_Left;
+		[SerializeField]
+		private AnimationClip m_Right;
+
 		private Vector3 m_Direction;
 		private float m_Rotation;
 
@@ -30,6 +40,7 @@ namespace NokiaSnakeGame.Snake
 		{
 			m_HitTime = new WaitForSeconds(hitTimeSec);
 			m_Initalpos = transform.position;
+			m_Anim.clip = m_Slither;
 		}
 
 		private void OnEnable()
@@ -56,6 +67,20 @@ namespace NokiaSnakeGame.Snake
 			if (m_Direction != Vector3.zero)
 				RotateSnake();
 			FixSnakeToGround();
+			SetAnimation();
+		}
+
+		private void SetAnimation()
+		{
+			if (Mathf.Abs(m_Rotation) > 30 && m_Direction != Vector3.zero)
+			{
+				m_Anim.clip = m_Rotation < 0 ? m_Right : m_Left;
+			}
+			else
+			{
+				m_Anim.clip = m_Slither;
+			}
+			m_Anim.Play();			
 		}
 
 		private void FixSnakeToGround()

@@ -15,9 +15,9 @@ namespace NokiaSnakeGame.Food
         [SerializeField]
         private float m_SpawnInterval;
 
+		private GenericPool<FoodController> foodPool = new GenericPool<FoodController>();
         private float m_Timer = 0;
         
-
 		private void Update()
 		{
             if (m_Timer >= m_SpawnInterval)
@@ -32,17 +32,42 @@ namespace NokiaSnakeGame.Food
 
 		private void CreateFood()
 		{
+			Vector3 newPosition = gridManager.GetTilePosition(GetRandomPosition());
+			newPosition.y += foodType.yOffset;
+			SpawnFood(newPosition);
+		}
+
+		private void SpawnFood(Vector3 newPosition)
+		{
+			FoodController newFood;
+			if (!foodPool.IsEmpty())
+			{
+				newFood = foodPool.GetItem();
+				newFood.transform.position = newPosition;
+				newFood.gameObject.SetActive(true);
+			}
+			else
+			{
+				newFood = Instantiate(foodType.foodPrefab, newPosition, Quaternion.identity, transform);
+				newFood.OnDisableGameObject += BackToPool; 
+			}
+		}
+
+		private Vector2Int GetRandomPosition()
+		{
 			Vector2Int randomIndex = Vector2Int.zero;
 			do
 			{
 				randomIndex.x = Random.Range(0, gridManager.GridSize.x - 1);
 				randomIndex.y = Random.Range(0, gridManager.GridSize.y - 1);
 
-			} while (!gridManager.CheckTileState(TileState.Deactive,randomIndex));
+			} while (!gridManager.CheckTileState(TileState.Deactive, randomIndex));
+			return randomIndex;
+		}
 
-			Vector3 newPosition = gridManager.GetTilePosition(randomIndex);
-			newPosition.y += foodType.yOffset;
-			Instantiate(foodType.foodPrefab, newPosition, Quaternion.identity);
+		public void BackToPool(FoodController food)
+		{
+			foodPool.AddToPool(food);
 		}
 	}
 }
